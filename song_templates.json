@@ -1,0 +1,231 @@
+{
+  "templates": [
+    {
+      "name": "标准流行歌曲",
+      "description": "最常见的流行歌曲结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "bridge", "bars": 8, "description": "桥段"},
+        {"section": "chorus", "bars": 8, "description": "副歌（高潮）"},
+        {"section": "outro", "bars": 4, "description": "尾奏"}
+      ],
+      "total_bars": 56,
+      "suggested_key": ["C", "G", "D", "A"],
+      "suggested_tempo": "90-120",
+      "chord_progressions": {
+        "verse": ["I", "V", "vi", "IV"],
+        "pre_chorus": ["vi", "IV", "I", "V"],
+        "chorus": ["I", "V", "vi", "iii", "IV"],
+        "bridge": ["ii", "IV", "V", "V"]
+      }
+    },
+    {
+      "name": "民谣叙事",
+      "description": "适合讲故事的民谣结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏"},
+        {"section": "verse", "bars": 8, "description": "主歌 1"},
+        {"section": "verse", "bars": 8, "description": "主歌 2"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "verse", "bars": 8, "description": "主歌 3"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "instrumental", "bars": 8, "description": "乐器间奏"},
+        {"section": "verse", "bars": 8, "description": "主歌 4"},
+        {"section": "chorus", "bars": 8, "description": "副歌（渐弱）"},
+        {"section": "outro", "bars": 4, "description": "尾奏"}
+      ],
+      "total_bars": 64,
+      "suggested_key": ["G", "D", "C", "E"],
+      "suggested_tempo": "70-100",
+      "chord_progressions": {
+        "verse": ["I", "V", "vi", "IV"],
+        "chorus": ["IV", "V", "I", "vi"],
+        "instrumental": ["I", "IV", "V", "I"]
+      }
+    },
+    {
+      "name": "摇滚劲歌",
+      "description": "充满能量的摇滚结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏（吉他 riff）"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌（能量积累）"},
+        {"section": "chorus", "bars": 8, "description": "副歌（爆发）"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "guitar_solo", "bars": 8, "description": "吉他 Solo"},
+        {"section": "bridge", "bars": 4, "description": "桥段（安静）"},
+        {"section": "final_chorus", "bars": 12, "description": "最终副歌（双副歌）"},
+        {"section": "outro", "bars": 4, "description": "尾奏（渐强结束）"}
+      ],
+      "total_bars": 72,
+      "suggested_key": ["E", "A", "D", "G"],
+      "suggested_tempo": "120-140",
+      "chord_progressions": {
+        "verse": ["I", "♭VII", "IV", "I"],
+        "pre_chorus": ["vi", "V", "IV", "V"],
+        "chorus": ["I", "V", "♭VII", "IV"],
+        "guitar_solo": ["I", "IV", "V", "I"],
+        "bridge": ["vi", "IV", "I", "V"]
+      }
+    },
+    {
+      "name": "抒情 ballad",
+      "description": "慢板抒情歌曲",
+      "structure": [
+        {"section": "intro", "bars": 8, "description": "前奏（钢琴/弦乐）"},
+        {"section": "verse", "bars": 8, "description": "主歌 1（轻柔）"},
+        {"section": "verse", "bars": 8, "description": "主歌 2"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "verse", "bars": 8, "description": "主歌 3"},
+        {"section": "pre_chorus", "bars": 4, "description": "导歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "breakdown", "bars": 4, "description": "情绪低谷"},
+        {"section": "final_chorus", "bars": 12, "description": "最终副歌（大编制）"},
+        {"section": "outro", "bars": 8, "description": "尾奏（渐弱）"}
+      ],
+      "total_bars": 80,
+      "suggested_key": ["C", "F", "Bb", "Eb"],
+      "suggested_tempo": "60-80",
+      "chord_progressions": {
+        "verse": ["I", "vi", "ii", "V"],
+        "pre_chorus": ["IV", "V", "iii", "vi"],
+        "chorus": ["I", "V", "vi", "IV"],
+        "breakdown": ["vi", "ii", "V", "I"],
+        "final_chorus": ["I", "V", "vi", "iii", "IV", "V", "I"]
+      }
+    },
+    {
+      "name": "十二小节蓝调",
+      "description": "经典蓝调结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏"},
+        {"section": "12_bar_blues", "bars": 12, "description": "十二小节蓝调"},
+        {"section": "12_bar_blues", "bars": 12, "description": "十二小节蓝调"},
+        {"section": "solo", "bars": 12, "description": "即兴 Solo"},
+        {"section": "12_bar_blues", "bars": 12, "description": "十二小节蓝调"},
+        {"section": "outro", "bars": 4, "description": "尾奏"}
+      ],
+      "total_bars": 56,
+      "suggested_key": ["A", "E", "G", "D"],
+      "suggested_tempo": "80-140",
+      "chord_progressions": {
+        "12_bar_blues": ["I", "I", "I", "I", "IV", "IV", "I", "I", "V", "IV", "I", "V"]
+      }
+    },
+    {
+      "name": "ABABCB 现代流行",
+      "description": "简洁高效的现代流行结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏"},
+        {"section": "A", "bars": 8, "description": "A段（主歌）"},
+        {"section": "B", "bars": 8, "description": "B段（副歌）"},
+        {"section": "A", "bars": 8, "description": "A段"},
+        {"section": "B", "bars": 8, "description": "B段"},
+        {"section": "C", "bars": 8, "description": "C段（桥段）"},
+        {"section": "B", "bars": 8, "description": "B段（最终）"},
+        {"section": "outro", "bars": 4, "description": "尾奏"}
+      ],
+      "total_bars": 56,
+      "suggested_key": ["C", "G", "D", "F"],
+      "suggested_tempo": "100-128",
+      "chord_progressions": {
+        "A": ["vi", "IV", "I", "V"],
+        "B": ["I", "V", "vi", "IV"],
+        "C": ["ii", "IV", "vi", "V"]
+      }
+    },
+    {
+      "name": "中国风",
+      "description": "具有东方韵味的歌曲结构",
+      "structure": [
+        {"section": "intro", "bars": 4, "description": "前奏（古筝/笛子）"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "interlude", "bars": 4, "description": "间奏（民乐 Solo）"},
+        {"section": "verse", "bars": 8, "description": "主歌"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "bridge", "bars": 8, "description": "桥段（念白/戏腔）"},
+        {"section": "chorus", "bars": 8, "description": "副歌"},
+        {"section": "outro", "bars": 4, "description": "尾奏（渐弱）"}
+      ],
+      "total_bars": 68,
+      "suggested_key": ["G", "D", "C", "F"],
+      "suggested_tempo": "76-96",
+      "chord_progressions": {
+        "verse": ["I", "V", "vi", "iii", "IV"],
+        "chorus": ["vi", "IV", "I", "V"],
+        "interlude": ["I", "IV", "V", "I"],
+        "bridge": ["ii", "iii", "vi", "ii", "V"]
+      },
+      "special_notes": "使用五声音阶，避免4和7音"
+    },
+    {
+      "name": "舞曲电子",
+      "description": "电子舞曲结构",
+      "structure": [
+        {"section": "intro", "bars": 8, "description": "前奏（Build-up）"},
+        {"section": "break", "bars": 16, "description": "Break（主歌）"},
+        {"section": "build_up", "bars": 8, "description": "Build-up"},
+        {"section": "drop", "bars": 16, "description": "Drop（副歌）"},
+        {"section": "break", "bars": 16, "description": "Break"},
+        {"section": "build_up", "bars": 8, "description": "Build-up"},
+        {"section": "drop", "bars": 16, "description": "Drop"},
+        {"section": "bridge", "bars": 8, "description": "Bridge"},
+        {"section": "build_up", "bars": 8, "description": "Final Build-up"},
+        {"section": "drop", "bars": 16, "description": "Final Drop"},
+        {"section": "outro", "bars": 8, "description": "Outro"}
+      ],
+      "total_bars": 128,
+      "suggested_key": ["C", "G", "F", "A"],
+      "suggested_tempo": "128",
+      "chord_progressions": {
+        "break": ["vi", "IV", "I", "V"],
+        "drop": ["I", "V", "vi", "IV"],
+        "build_up": ["vi", "V", "IV", "iii"],
+        "bridge": ["ii", "IV", "vi", "V"]
+      }
+    }
+  ],
+  "section_types": {
+    "intro": {
+      "description": "歌曲开始部分，建立氛围",
+      "characteristics": ["无歌词", "建立调性", "引入节奏"],
+      "typical_length": "4-8小节"
+    },
+    "verse": {
+      "description": "主歌，叙述故事",
+      "characteristics": ["歌词叙事", "旋律相对平稳", "和声较简单"],
+      "typical_length": "8-16小节"
+    },
+    "pre_chorus": {
+      "description": "导歌，连接主歌和副歌",
+      "characteristics": ["情绪上升", "旋律上扬", "制造期待"],
+      "typical_length": "4-8小节"
+    },
+    "chorus": {
+      "description": "副歌，歌曲高潮",
+      "characteristics": ["旋律最抓耳", "歌词重复", "情绪最高"],
+      "typical_length": "8-16小节"
+    },
+    "bridge": {
+      "description": "桥段，提供对比",
+      "characteristics": ["和声变化", "情绪转折", "新素材"],
+      "typical_length": "4-8小节"
+    },
+    "outro": {
+      "description": "尾奏，结束歌曲",
+      "characteristics": ["渐弱或渐强", "重复最后乐句", "释放张力"],
+      "typical_length": "4-8小节"
+    }
+  }
+}

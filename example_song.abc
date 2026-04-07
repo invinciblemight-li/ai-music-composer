@@ -1,0 +1,24 @@
+X:1
+T:春日小调
+C:AI Composer
+M:4/4
+L:1/4
+Q:1/4=88
+K:G
+
+% 前奏
+"G" G A B d | "D" d c B A | "Em" G F G A | "C" G4 |
+
+% 主歌 1
+"G" G G A B | "D" d d c B | "Em" B A G F | "C" E4 |
+w: 春 风 吹 过 小 河 边 柳 枝 轻 轻 摇
+
+"G" G G A B | "D" d d e d | "C" d c B A | "D" B4 |
+w: 花 儿 开 放 笑 脸 迎 阳 光 多 么 好
+
+% 副歌
+"G" d d d B | "D" d c B A | "Em" B A G F | "C" E4 |
+w: 春 天 来 了 万 物 复 苏 新
+
+"G" G A B d | "C" e d c B | "D" A G A B | "G" G4 ||
+w: 让 我 们 一 起 唱 响 这 美 好 的 旋 律

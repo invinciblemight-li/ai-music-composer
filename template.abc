@@ -1,0 +1,27 @@
+X:1
+T:歌曲标题
+C:作曲者
+M:4/4
+L:1/4
+Q:1/4=100
+K:C
+
+% 前奏（可选）
+"C" C E G E | "G" D G B G | "Am" A c e c | "F" F A c A |
+
+% 主歌 1
+"C" C C E G | "G" G G F E | "Am" E D C B, | "F" A,4 |
+w: 第 一 句 歌 词 在 这 里 填 写
+
+"C" C C E G | "G" G G A G | "F" G F E D | "G" E4 |
+w: 第 二 句 歌 词 在 这 里 填 写
+
+% 副歌
+"C" G G G E | "G" G F E D | "Am" E D C B, | "F" A,4 |
+w: 副 歌 部 分 在 这 里 填 写
+
+"C" C D E G | "F" A G F E | "G" D C D E | "C" C4 ||
+w: 结 束 句 在 这 里 填 写
+
+% 尾奏（可选）
+"C" C E G c | "G" B d g d | "C" c G E C | C4 |]
