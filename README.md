@@ -4,7 +4,7 @@
 [![WorkBuddy Skill](https://img.shields.io/badge/WorkBuddy-Skill-blue.svg)](https://github.com/invinciblemight-li/ai-music-composer)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 
-> **AI音乐创作与曲谱生成工具** - 为 WorkBuddy 开发的 Skill，实现 AI 创作歌曲并提取完整曲谱。
+> **AI音乐创作与曲谱生成工具** - 由 invinciblemight-li  开发的 Skill，为了实现 AI 创作歌曲并提取完整曲谱。
 
 [English](#english) | [中文](#中文)
 
