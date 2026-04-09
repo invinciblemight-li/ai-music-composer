@@ -177,14 +177,23 @@ Do Re Mi Fa Sol La Si
   - 日本/韩国音乐
   - 实验/先锋音乐
 
-- **全球乐器大全**: `references/instruments_complete.md` - 500+ 种乐器
-  - 弦乐器（弓弦、拨弦、击弦）
-  - 管乐器（木管、铜管）
-  - 打击乐器（体鸣、膜鸣）
-  - 键盘乐器
-  - 电子乐器
-  - 声乐
-  - 古代/历史乐器
+- **全球乐器超大数据库**: `references/instruments_17000_plus.md` - 17,750+ 种乐器
+  - 吉他/贝斯 - 3,500+
+  - 鼓/打击乐 - 2,800+
+  - 键盘/MIDI - 2,200+
+  - 录音室设备 - 1,800+
+  - 现场音响 - 1,500+
+  - DJ/制作 - 1,200+
+  - 管弦乐/乐队 - 2,000+
+  - 配件 - 3,000+
+  - 软件 - 800+
+  - 中国传统乐器 - 500+
+  - 世界民族乐器 - 2,500+
+  - 电子乐器 - 600+
+  - 古代/历史乐器 - 400+
+  - 声乐 - 200+
+  - 实验/先锋 - 300+
+  - **总计：17,750+ 种乐器**
 
 ### 特色风格指南（新增）
 - **中国国风音乐创作指南**: `references/guofeng_guide.md` - 国风音乐完整创作手册
@@ -311,6 +320,56 @@ python scripts/music_analyzer.py -f song.abc         # 分析 ABC 文件
 ```bash
 python scripts/batch_processor.py -i ./songs --convert
 python scripts/batch_processor.py -i ./songs --transpose 2
+```
+
+## AI 人声歌曲生成
+
+将创作的歌曲发送到 AI 音乐平台生成带人声的完整歌曲。
+
+### 支持平台
+
+| 平台 | 特点 | 网址 |
+|------|------|------|
+| **Suno** | 最强 AI 歌曲生成，支持多种风格 | https://suno.com |
+| **Udio** | 高音质，支持长歌曲 | https://udio.com |
+| **网易天音** | 中文支持好，免费 | https://tianyin.163.com |
+| **ACE Studio** | 专业歌声合成 | https://acestudio.ai |
+
+### 使用方法
+
+```bash
+# 使用 Suno 生成人声歌曲
+python scripts/voice_generator.py song.txt -p suno -t "歌曲名" -s "pop"
+
+# 使用 Udio 生成
+python scripts/voice_generator.py song.txt -p udio
+
+# 本地 TTS 朗读（非歌声）
+python scripts/voice_generator.py song.txt -p tts
+```
+
+### 输出示例
+
+```
+🎵 正在使用 Suno 生成歌曲: 今晚不回家
+📝 风格: r&b
+📄 歌词长度: 1250 字符
+
+╔══════════════════════════════════════════════════════════════╗
+║           Suno AI 人声生成 - 手动操作指南                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 步骤 1: 访问官网
+   网址: https://suno.com
+
+📍 步骤 2: 输入歌曲信息
+【歌曲标题】今晚不回家
+【音乐风格】r&b, party, upbeat
+【歌词】（完整歌词）
+
+📍 步骤 3: 生成并下载
+   - 点击 Generate 等待 1-2 分钟
+   - 下载 MP3 或 WAV 格式
 ```
 
 ## 输出示例
